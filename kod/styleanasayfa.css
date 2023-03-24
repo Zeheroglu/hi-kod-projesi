@@ -1,0 +1,26 @@
+body{
+
+    background:url("images/1.jpg");
+    animation:image 5s infinite alternate;
+   -webkit-animation:image 5s infinite alternate;
+-moz-animation:image 5s infinite alternate;
+min-height: 100vh;
+background-repeat:no-repeat;
+background-size: cover;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+@keyframes image{
+    0%{ background: url("images/1.jpg");background-repeat: no-repeat;min-height: 100vh;background-size: cover;}
+
+    25%{ background: url("images/2.jpg");background-repeat: no-repeat;min-height: 100vh;background-size: cover;}
+
+    50%{ background: url("images/3.jpg");background-repeat: no-repeat;min-height: 100vh;background-size: cover;}
+
+    75%{ background: url("images/4.jpg");background-repeat: no-repeat;min-height: 100vh;background-size: cover;}
+
+    100%{ background: url("images/5.jpg");background-repeat: no-repeat;min-height: 100vh;background-size: cover;}
+}
+
